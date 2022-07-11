@@ -1,0 +1,102 @@
+:root{
+   
+    /* fontes */
+    
+    ---fonte_principal: 'Poppins', sans-serif;
+    ---fonte_secundaria: 'IBM Plex Sans', sans-serif;
+    ---fonte_tecearia: 'Poppins', sans-serif;
+
+    /* cores */
+
+    ---azul: #3772FF;
+    ---verde: #36D6AD;
+    ---coral: #FC7071;
+    ---creme: #FCF0E3;
+    ---cinza: #737380;
+    ---cinza_claro: #BCBCBC;
+    ---cinza_escuro: #F6F6F6;
+    ---branca: #ffffff;
+    
+}
+
+
+body{
+
+    background-color: var(---azul);
+    background-image: url("imagens/Forma\ 1.png"), url(imagens/Forma\ 2.png), url(imagens/Ilustração\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left top, right center, bottom 86px center;
+    min-height: 100vh;
+}
+
+
+.cabeçalho{
+    margin: 2.8em;
+    height: 2vh;
+   
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+
+.logo_adopet{
+
+    width: 13,5rem;
+    height: 4rem;
+    margin: 42px;
+    padding-top: 10px;
+
+}
+
+.titulo_principal{
+
+    color: var(---branca);
+    font-family: var(---fonte_secundaria);
+    Font-size: 26px;
+    Align: Center;
+    Vertical-align: Center;
+}
+
+.texto_principal{
+
+    color: var(---branca);
+    font-family: var(---fonte_principal);
+    font-size: 15pt;
+    align:center;
+    margin: 40px ;
+
+}
+
+.links{
+    display: block;
+    background-color: var(---coral);
+    margin: 0 auto 1em auto;
+    padding: 0.7em;
+	border-radius: 5px;
+    width: 48%;
+    color: var(---branca);
+    font-family: var(---fonte_tecearia);
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.rodape_img{
+    position: center;
+
+}
+
+.rodape{
+
+    color: var(---branca);
+    font-family: var(---fonte_principal);
+    font-size: 16px;
+    text-align: center;
+    background-color: var(---verde);
+    padding: 3em;
+}
