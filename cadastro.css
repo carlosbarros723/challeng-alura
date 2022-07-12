@@ -37,8 +37,8 @@ body{
     background-color: var(---branca);
     background-image: var(---patas),  var(---forma1), var(---forma3);
     background-position: right top, left top, left 368px;
-    min-height: 100vh;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 
@@ -54,6 +54,9 @@ body{
     text-align: center;
     font-family: var(---fonte_principal);
     font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
 
 }
 
@@ -68,12 +71,13 @@ body{
 .conteudo_texto{
     display: inline-block;
     color: var(---azul);
-    padding: 8px;
+    padding: 10px;
     width: 300px;
 }
 
 
 .formulario{
+    margin: 30px;
 
 }
 
@@ -81,4 +85,41 @@ body{
 
 .label_input{
     display: block;
+    font-family: var(---fonte_principal);
+    font-size: 1rem;
+    margin-top: 18px;
+    
+}
+
+
+.input_formulario{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px ;
+
+}
+
+
+.cadastrar{
+    width: 88px;
+    display: inline-block;
+    background-color: var(---coral);
+    border-radius: 5px;
+    text-align: center;
+    font-family: var(---fonte_tecearia);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+.rodape{
+
+    color: var(---branca);
+    font-family: var(---fonte_principal);
+    font-size: 16px;
+    text-align: center;
+    background-color: var(---verde);
+    padding: 3em;
 }

@@ -58,7 +58,7 @@ main{
     color: var(---branca);
     font-family: var(---fonte_secundaria);
     Font-size: 26px;
-    Align: Center;
+    text-align: center;
     Vertical-align: Center;
 }
 
@@ -67,7 +67,7 @@ main{
     color: var(---branca);
     font-family: var(---fonte_principal);
     font-size: 15pt;
-    align:center;
+    box-align:center;
     margin: 40px ;
 
 }
