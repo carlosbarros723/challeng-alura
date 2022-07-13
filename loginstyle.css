@@ -27,7 +27,6 @@
 
     
 }
-    
 
 
 
@@ -36,7 +35,7 @@ body{
 
     background-color: var(---branca);
     background-image: var(---patas),  var(---forma1), var(---forma3);
-    background-position: right top, left top, left 368px;
+    background-position: right top, left top, left 23rem;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
@@ -50,78 +49,83 @@ body{
 }
 
 
-.conteudo{
+
+.conteudo_main{
     text-align: center;
     font-family: var(---fonte_principal);
-    font-size: 12pt;
-    display: flex;
-    flex-direction: column;
-    height: 80vh;
-
+    font-size: 1rem;
+    min-height: 80vh;
 }
 
-.conteudo_logo{ 
-    margin: 42px;
-    padding-top: 20px;
-    
-    
+
+
+
+
+.conteudo_logo{
+    margin: 2.7rem;
+    padding-top: 2rem;
 }
 
 
 .conteudo_texto{
-    display: inline-block;
     color: var(---azul);
-    padding: 10px;
-    width: 300px;
+    margin-top: 1.5rem;
 }
+
 
 
 .formulario{
-    margin: 30px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
-
-
 
 .label_input{
-    display: block;
-    font-family: var(---fonte_principal);
-    font-size: 1rem;
-    margin-top: 18px;
-    margin-bottom: 10px;
+    margin-top: 2.5rem;
+    margin-bottom: 0.7rem;
+
     
 }
-
 
 .input_formulario{
-    background-color:  #F7F7F7;
-    border-radius: 5px;
-    width: 300px;
-    height: 30px ;
     text-align: center;
-    color: #BCBCBC;
+    width: 18.75rem;
+    background-color: var(---cinza_escuro);
     border: none;
     box-shadow: 1px 1px 1px #BCBCBC;
-
-}
-
-
-.cadastrar{
-    
-    
-    color: var(---branca);
-    background-color: var(---coral);
     border-radius: 5px;
-    text-align: center;
-    font-family: var(---fonte_tecearia);
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px;
-    width: 100px;
-    margin-left: 150px;
-    
+    padding: 0.625rem;
 
 }
+
+
+.buton{
+    display: flex;
+    flex-direction: column;
+}
+
+.esqueci_senha{
+    color: var(---coral);
+    font-size: 0.75rem;
+    margin-top: 1rem;
+
+}
+
+.entrar{
+    background-color: var(---coral);
+    border-radius: 6px;
+    width: 9.25rem;
+    padding: 1rem;
+    font-family: var(---fonte_tecearia);
+    font-size: 1rem;
+    color: var(---branca);
+    text-decoration: none;
+    margin: 3rem auto;
+
+}
+
 
 
 .rodape{
