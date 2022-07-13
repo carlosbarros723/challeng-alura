@@ -93,16 +93,20 @@ body{
 
 
 .input_formulario{
+    background-color:  #F7F7F7;
     border-radius: 5px;
     width: 300px;
     height: 30px ;
+    text-align: center;
+    color: #BCBCBC;
 
 }
 
 
 .cadastrar{
-    width: 88px;
-    display: inline-block;
+    
+    
+    color: var(---branca);
     background-color: var(---coral);
     border-radius: 5px;
     text-align: center;
@@ -110,6 +114,9 @@ body{
     font-size: 16px;
     text-decoration: none;
     padding: 10px;
+    width: 100px;
+    margin-left: 150px;
+    
 
 }
 
